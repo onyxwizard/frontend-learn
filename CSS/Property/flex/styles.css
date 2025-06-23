@@ -1,62 +1,45 @@
+header{
+    text-align: center;
+}
 .container{
     border: 5px solid red;
     display: flex;
     flex-direction:row;
     justify-content:initial;
     margin:5px auto;
+    max-width: 600px;
+    min-height: 400px;
+    /* flex property */
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
 }
 .container1{
     border: 5px solid red;
+    margin:5px auto;
+    max-width: 600px;
+    min-height: 900px;
+    /* flex property */
     display: flex;
-    flex-direction:row;
-    justify-content:center;
-    margin:5px auto;
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-start;
+    flex-wrap: wrap;
 }
 
-.container2{
-    border: 5px solid red;
-    display: flex;
-    flex-direction:row;
-    justify-content:flex-end;
-    margin:5px auto;
-}
 
-.gridbox{
-    border: 5px solid rgb(11, 214, 221);
-    display: grid;
-    justify-content:baseline;
-    margin:5px auto;
-}
-
-.gridbox1{
-    border: 5px solid rgb(11, 214, 221);
-    display: grid;
-    justify-content:center;
-    margin:5px auto;
-}
-
-.gridbox2{
-    border: 5px solid rgb(11, 214, 221);
-    display: grid;
-    justify-content:end;
-    margin:5px auto;
-}
-.box1,.box2,.box3{
-    width: 50px;
-    height: 50px;
+.box{
+    width: 150px;
+    height: 150px;
     margin: 5px;
-}
-.box1{
-    background-color: aqua;
+    color: aliceblue;
+    background-color: rgb(14, 15, 15);
     border-radius: 5px;
+    /* flex properties */
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
-.box2{
-    background-color: rgb(255, 0, 0);
-    border-radius: 5px;
-}
-
-.box3{
-    background-color: rgb(47, 0, 255);
-    border-radius: 5px;
-}
