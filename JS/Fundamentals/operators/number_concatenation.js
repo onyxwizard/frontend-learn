@@ -41,5 +41,5 @@ val2 = "5";
 console.log(+val1 / +val2); //2
 //there is a concept called operator precedence go and learn that so you know the the operator order works
 
-let x = ("Hello", 5 + 5);
-console.log(x); // 10
+let a = (1 + 2, 3 + 4);// Always the last value is picked
+console.log(a); //7
